@@ -17,4 +17,4 @@ COPY static/css/style.css /usr/src/app/static/css/
 EXPOSE 5000
 
 # run the application
-CMD ["python", "/usr/src/app/app.py"]
+CMD ["python3", "/usr/src/app/app.py"]
